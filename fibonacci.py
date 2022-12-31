@@ -5,8 +5,9 @@ def fib(n):
         return fib(n-1) + fib(n-2)
 
 def main():
-    result = fib(5)
-    print(result)
+    n = int(input("Enter fibonacci number: "))
+    result = fib(n)
+    print("Result:", result)
 
 if __name__ == "__main__":
     main()
